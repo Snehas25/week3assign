@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+@media (min-width: 576px)
+{
+    .navbar-nav, .tbutton, .menu
+    {
+        display: none;
+    }
+}
+.text-item
+{
+    float: left;
+    background-color: coral;
+    padding: 0.5rem;
+    margin: 10px;
+}
+.navi{
+    background-color: powderblue;
+}
+.navbar-brand{
+    font-size: 2rem;
+}
+h1
+{
+    text-align: center;
+    margin: 2rem;
+}
+h2
+{
+    text-align: center;
+    padding: 1rem 1rem 0 1rem;
+}
+p{
+    padding: 2rem;
+}
